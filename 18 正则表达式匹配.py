@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Sep 10 11:02:42 2019
-
+#缺少动态规划做法
 @author: an
 """
 #递归做法
