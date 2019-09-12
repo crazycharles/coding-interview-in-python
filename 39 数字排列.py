@@ -17,7 +17,8 @@ class Solution:
         for i in range(len(nums)):
             for j in self.permutation(nums[:i]+nums[i+1:]):
                 temp = [nums[i]] + j
-                res.append(temp)
+                if temp not in res:
+                    res.append(temp)
         return res
     
 nums = [1,2,3]
